@@ -12,13 +12,14 @@ class Etudiant
     public $dateInscr;
     public $imgEtu;
  
+    //fonction de constructeur
     public function __construct($nom,$prenom,$dateNaissance
     ,$mail,$password,$anneeEtude ,$specialite,$dateInscr,$imgEtu)
     {
         $this->nom=$nom;
         $this->prenom=$prenom;
         $this->dateNaissance=$dateNaissance;
-
+        
         $this->mail=$mail;
         $this->password=$password;
         $this->anneeEtude=$anneeEtude;
